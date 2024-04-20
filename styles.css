@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.hassan{
+    font-family : "Dancing Script", cursive;
+    direction: ltr;
+    color: #28a745;
+    text-shadow: #343a40;
+   
+}
+
+.container {
+    background-color: #f8f9fa; /* Couleur de fond */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .text-light {
+    color: #343a40; /* Couleur du texte */
+  }
+  
+  .bg-success {
+    background-color: #28a745; /* Couleur de fond */
+  }
+  
+  .text-success {
+    color: #28a745; /* Couleur du texte */
+  }
+  
+  .shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombre */
+  }
+  
+  .card {
+    transition: box-shadow 0.3s; /* Animation de transition */
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Ombre animée au survol */
+  }
+  @keyframes marquee {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: marquee 15s linear infinite;
+  }
+  
