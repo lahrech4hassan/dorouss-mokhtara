@@ -36,14 +36,7 @@
   .card:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Ombre animée au survol */
   }
-  @keyframes marquee {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
-  }
+ 
   
-  .marquee {
-    white-space: nowrap;
-    overflow: hidden;
-    animation: marquee 15s linear infinite;
-  }
+  
   
